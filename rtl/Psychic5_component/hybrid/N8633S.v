@@ -47,6 +47,9 @@ reg     [8:0]   vertical_counter = 9'd220; //9'b0_1101_1100
 assign  o_ABS_H_CNTR = horizontal_counter;
 assign  o_ABS_V_CNTR = vertical_counter;
 
+wire o_ABS_256H, o_ABS_128H, o_ABS_64H, o_ABS_32H, o_ABS_16H, o_ABS_8H, o_ABS_4H, o_ABS_2H, o_ABS_1H;
+wire o_ABS_256V, o_ABS_128V, o_ABS_64V, o_ABS_32V, o_ABS_16V, o_ABS_8V, o_ABS_4V, o_ABS_2V, o_ABS_1V;
+
 assign  {o_ABS_256H, 
          o_ABS_128H, o_ABS_64H,  o_ABS_32H,  o_ABS_16H, 
          o_ABS_8H,   o_ABS_4H,   o_ABS_2H,   o_ABS_1H} = horizontal_counter;

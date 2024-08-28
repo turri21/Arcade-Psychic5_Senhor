@@ -259,6 +259,8 @@ wire    [15:0]  joystick_1;
 wire            forced_scandoubler; //?
 wire    [21:0]  gamma_bus;
 
+wire direct_video;
+wire new_vmode;
 
 hps_io #(.CONF_STR(CONF_STR)) hps_io
 (
