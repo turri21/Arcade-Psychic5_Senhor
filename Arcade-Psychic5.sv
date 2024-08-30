@@ -222,10 +222,10 @@ wire    [127:0] status; //status bits
 localparam CONF_STR = {
     "ikacore_Psychic5;",
     "-;",
-    "P1,Scaler-Settings;",
+    "P1,Scaler Settings;",
     "P1-;",
     "P1O7,Aspect ratio,original,full screen;",
-    "P1O8,Orientation,vertial,horizontal;",
+    "P1O8,Orientation,vertical,horizontal;",
     "P1OA,VGA Scaler,off,on;",
     "P1O35,Scandoubler Fx,None,HQ2x,CRT 25%,CRT 50%,CRT 75%;",
     "-;",
