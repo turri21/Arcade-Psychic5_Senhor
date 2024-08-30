@@ -2,6 +2,8 @@
 
 Tested: Working Video 720p, 1080p & Sound
 
+Clocks swapped in sys.tcl
+
 # Psychic 5 for MiSTer
 Psychic 5 compatible core for MiSTer FPGA
 
