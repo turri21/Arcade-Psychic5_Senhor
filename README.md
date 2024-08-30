@@ -1,3 +1,7 @@
+=(Psychic 5_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound
+
 # Psychic 5 for MiSTer
 Psychic 5 compatible core for MiSTer FPGA
 
